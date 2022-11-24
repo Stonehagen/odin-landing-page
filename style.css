@@ -1,6 +1,12 @@
 
-.header,
+.hero,
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.hero-sub img {
+    width: 450px;
+    height: 200px;
+    object-fit: cover;
 }
