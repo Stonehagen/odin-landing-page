@@ -150,8 +150,45 @@ body {
 }
 
 .content-last {
-    max-width: 800px;
-    justify-content: stretch;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.content-last-card {
+    display: flex;
+    margin: 50px 0;
+    background-color: #3882f6;
+    width: 800px;
+    justify-self: center;
+    border-radius: 10px;
+    gap: 100px;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+
+}
+
+.content-last-card .text {
+    color: #E5E7EB;
+    margin: 0;
+    font-size: 15px;
+
+}
+
+.card-header-down {
+    font-size: 30px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.content-last-card button {
+    border-radius: 4px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 5px 30px;
+    font-size: 18px;
 }
 
 .footer {
